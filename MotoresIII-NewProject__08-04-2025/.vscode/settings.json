@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "MotoresIII-NewProject__08-04-2025.sln"
+    "dotnet.defaultSolution": "MotoresIII-NewProject__08-04-2025.sln",
+    "dotnet.preferCSharpExtension": true
 }
