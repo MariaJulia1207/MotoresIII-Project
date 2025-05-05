@@ -8,8 +8,8 @@ public class ForceExample : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        Vector2 force = new Vector2(10f, 0f); // For�a para a direita
-        rb.AddForce(force, ForceMode2D.Impulse); // Aplica a for�a instantaneamente
+        Vector2 force = new Vector2(10f, 0f); // Força para a direita
+        rb.AddForce(force, ForceMode2D.Impulse); // Aplica a força instantaneamente
     }
 
     // Update is called once per frame
