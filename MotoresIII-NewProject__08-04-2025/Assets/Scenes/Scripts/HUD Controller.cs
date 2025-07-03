@@ -1,16 +1,13 @@
+using TMPro;
 using UnityEngine;
-
 public class HUDController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public TextMeshProUGUI relogioTexto;
+    private float tempo;
     void Update()
     {
-        
+        // Atualiza tempo
+        tempo += Time.deltaTime;
+        relogioTexto.text = "Tempo: " + tempo.ToString("F1"); // ex: Tempo: 10.3
     }
 }
