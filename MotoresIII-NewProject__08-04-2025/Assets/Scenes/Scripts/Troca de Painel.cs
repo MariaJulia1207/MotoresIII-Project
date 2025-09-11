@@ -8,4 +8,9 @@ public class TrocaDePainel : MonoBehaviour
         painel1.SetActive(true);
         painel2.SetActive(false);
     }
+    public void MostrarPainel2()
+    {
+        painel1.SetActive(false);
+        painel2.SetActive(true);
+    }
 }
