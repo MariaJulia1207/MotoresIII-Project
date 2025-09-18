@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 5dfefa96f4ff49344b660bbddece722e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2018478055260739847
+    second: TatuKan Palette_png_0
+  - first:
+      213: 5730830399986937578
+    second: TatuKan Palette_png_1
+  - first:
+      213: 9010917625104941275
+    second: TatuKan Palette_png_2
+  - first:
+      213: -4722558496017030351
+    second: TatuKan Palette_png_3
+  - first:
+      213: -623752400105733215
+    second: TatuKan Palette_png_4
+  - first:
+      213: -5255330403724695781
+    second: TatuKan Palette_png_5
+  - first:
+      213: 8967393599656859913
+    second: TatuKan Palette_png_6
+  - first:
+      213: -2779993484448869491
+    second: TatuKan Palette_png_7
+  - first:
+      213: 1869440088135354839
+    second: TatuKan Palette_png_8
+  - first:
+      213: 8356989466634663817
+    second: TatuKan Palette_png_9
+  - first:
+      213: 5402926954549969368
+    second: TatuKan Palette_png_10
+  - first:
+      213: 2966588389126937424
+    second: TatuKan Palette_png_11
+  - first:
+      213: -5452503753384143217
+    second: TatuKan Palette_png_12
+  - first:
+      213: -2962713551724236413
+    second: TatuKan Palette_png_13
+  - first:
+      213: 7623080392698031916
+    second: TatuKan Palette_png_14
+  - first:
+      213: 9104085356417537349
+    second: TatuKan Palette_png_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TatuKan Palette_png_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2447
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6234137ececf3e0800000000000000
+      internalID: -2018478055260739847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2447
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee2b33b2eff78f40800000000000000
+      internalID: 5730830399986937578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2447
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0cfa096d53d0d70800000000000000
+      internalID: 9010917625104941275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2447
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133e6eda11a167eb0800000000000000
+      internalID: -4722558496017030351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_4
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 2450
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a386e33f7cf757f0800000000000000
+      internalID: -623752400105733215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2412
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17edac77d05117b0800000000000000
+      internalID: -5255330403724695781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2412
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90998a4b7f4927c70800000000000000
+      internalID: 8967393599656859913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2412
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d835689a7aa7b69d0800000000000000
+      internalID: -2779993484448869491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2415
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9ce2efad591f910800000000000000
+      internalID: 1869440088135354839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2423
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987b07684adf9f370800000000000000
+      internalID: 8356989466634663817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2423
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d18551707d0bfa40800000000000000
+      internalID: 5402926954549969368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2423
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b95b81c607b2920800000000000000
+      internalID: 2966588389126937424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2376
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86dd0399b0d454b0800000000000000
+      internalID: -5452503753384143217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2375
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381bd3ac8b352e6d0800000000000000
+      internalID: -2962713551724236413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2378
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fe2057a3f9ac960800000000000000
+      internalID: 7623080392698031916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TatuKan Palette_png_15
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2376
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5455a1a6565385e70800000000000000
+      internalID: 9104085356417537349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TatuKan Palette_png_0: -2018478055260739847
+      TatuKan Palette_png_1: 5730830399986937578
+      TatuKan Palette_png_10: 5402926954549969368
+      TatuKan Palette_png_11: 2966588389126937424
+      TatuKan Palette_png_12: -5452503753384143217
+      TatuKan Palette_png_13: -2962713551724236413
+      TatuKan Palette_png_14: 7623080392698031916
+      TatuKan Palette_png_15: 9104085356417537349
+      TatuKan Palette_png_2: 9010917625104941275
+      TatuKan Palette_png_3: -4722558496017030351
+      TatuKan Palette_png_4: -623752400105733215
+      TatuKan Palette_png_5: -5255330403724695781
+      TatuKan Palette_png_6: 8967393599656859913
+      TatuKan Palette_png_7: -2779993484448869491
+      TatuKan Palette_png_8: 1869440088135354839
+      TatuKan Palette_png_9: 8356989466634663817
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
