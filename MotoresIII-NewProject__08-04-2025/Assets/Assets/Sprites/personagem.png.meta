@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 167d83c5b8bf6b543b17b20a0300d04b
+guid: e0f436e48b155a4449c0b81d2c0d245a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2413806693520163455
-    second: Circle
+      213: 2338503842691769198
+    second: personagem_0
+  - first:
+      213: 5647827904626956368
+    second: personagem_1
+  - first:
+      213: 4679044254079838603
+    second: personagem_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,12 +57,12 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -68,7 +74,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -97,7 +103,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +116,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,96 +132,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Circle
+      name: personagem_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 0
-        width: 256
-        height: 256
+        width: 13
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline:
-      - - {x: 33, y: 128}
-        - {x: -33, y: 128}
-        - {x: -95, y: 95}
-        - {x: -128, y: 33}
-        - {x: -128, y: -33}
-        - {x: -95, y: -95}
-        - {x: -33, y: -128}
-        - {x: 33, y: -128}
-        - {x: 95, y: -95}
-        - {x: 128, y: -33}
-        - {x: 128, y: 33}
-        - {x: 95, y: 95}
-      physicsShape:
-      - - {x: 0, y: 128}
-        - {x: -39, y: 121}
-        - {x: -75, y: 103}
-        - {x: -103, y: 75}
-        - {x: -121, y: 39}
-        - {x: -128, y: 0}
-        - {x: -121, y: -39}
-        - {x: -103, y: -75}
-        - {x: -75, y: -103}
-        - {x: -39, y: -121}
-        - {x: 0, y: -128}
-        - {x: 39, y: -121}
-        - {x: 75, y: -103}
-        - {x: 103, y: -75}
-        - {x: 121, y: -39}
-        - {x: 128, y: 0}
-        - {x: 121, y: 39}
-        - {x: 103, y: 75}
-        - {x: 75, y: 103}
-        - {x: 39, y: 121}
-      tessellationDetail: 0
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
       bones: []
-      spriteID: 18d3544e99f608ed0800000000000000
-      internalID: -2413806693520163455
+      spriteID: e636781ead8047020800000000000000
+      internalID: 2338503842691769198
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline:
-    - - {x: 33, y: 128}
-      - {x: -33, y: 128}
-      - {x: -95, y: 95}
-      - {x: -128, y: 33}
-      - {x: -128, y: -33}
-      - {x: -95, y: -95}
-      - {x: -33, y: -128}
-      - {x: 33, y: -128}
-      - {x: 95, y: -95}
-      - {x: 128, y: -33}
-      - {x: 128, y: 33}
-      - {x: 95, y: 95}
+    - serializedVersion: 2
+      name: personagem_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05814d74e8d116e40800000000000000
+      internalID: 5647827904626956368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89e2cc55fd4fe040800000000000000
+      internalID: 4679044254079838603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
     customData: 
-    physicsShape:
-    - - {x: 0, y: 128}
-      - {x: -39, y: 121}
-      - {x: -75, y: 103}
-      - {x: -103, y: 75}
-      - {x: -121, y: 39}
-      - {x: -128, y: 0}
-      - {x: -121, y: -39}
-      - {x: -103, y: -75}
-      - {x: -75, y: -103}
-      - {x: -39, y: -121}
-      - {x: 0, y: -128}
-      - {x: 39, y: -121}
-      - {x: 75, y: -103}
-      - {x: 103, y: -75}
-      - {x: 121, y: -39}
-      - {x: 128, y: 0}
-      - {x: 121, y: 39}
-      - {x: 103, y: 75}
-      - {x: 75, y: 103}
-      - {x: 39, y: 121}
+    physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -225,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Circle: -2413806693520163455
+      personagem_0: 2338503842691769198
+      personagem_1: 5647827904626956368
+      personagem_2: 4679044254079838603
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

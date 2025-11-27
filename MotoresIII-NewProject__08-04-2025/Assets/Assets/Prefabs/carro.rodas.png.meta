@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: b8e3fd23538efcf4e80807ebe0c8ab2a
+guid: 117153c5596c0c445977e44b8a9e00f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 743193012460205755
-    second: "carro.carca\xE7a_0"
+      213: -7022457287075887595
+    second: carro.rodas_0
+  - first:
+      213: -148618937729541602
+    second: carro.rodas_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 180
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,17 +99,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "carro.carca\xE7a_0"
+      name: carro.rodas_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 32
-        width: 278
-        height: 95
+        x: 24
+        y: 18
+        width: 45
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb63e337b1a505a00800000000000000
-      internalID: 743193012460205755
+      spriteID: 5160d71dd483b8e90800000000000000
+      internalID: -7022457287075887595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carro.rodas_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 18
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a1cb11ddfffedf0800000000000000
+      internalID: -148618937729541602
       vertices: []
       indices: 
       edges: []
@@ -125,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c5dbb891c9e7a134da938956d230b019
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "carro.carca\xE7a_0": 743193012460205755
+      carro.rodas_0: -7022457287075887595
+      carro.rodas_1: -148618937729541602
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
