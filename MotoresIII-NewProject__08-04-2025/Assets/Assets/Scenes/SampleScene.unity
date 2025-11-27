@@ -4619,6 +4619,57 @@ Transform:
   - {fileID: 997918723}
   m_Father: {fileID: 1819247422}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &602594184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 602594186}
+  - component: {fileID: 602594185}
+  m_Layer: 0
+  m_Name: Cutscene_Director
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &602594185
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602594184}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 2805e934e7fc1ab4c94cda9a0587b9ed, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References:
+    - 4c6947a0ebc63d4499b5f1b9333e8684: {fileID: 1527522647}
+    - 163169895cc1c7f40b64160eacd2d2c4: {fileID: 1527522647}
+--- !u!4 &602594186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602594184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1162499, y: 1.9359884, z: 5.983587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &617430739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9970,7 +10021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5082456647575563144, guid: 7500a41d8331bda48b1f7bf0d6b3588f, type: 3}
       propertyPath: m_Name
-      value: "C\xEDrculo (1)"
+      value: Protagonista
       objectReference: {fileID: 0}
     - target: {fileID: 5998292984363248353, guid: 7500a41d8331bda48b1f7bf0d6b3588f, type: 3}
       propertyPath: m_Distance
@@ -16835,7 +16886,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1052204861}
   m_Direction: 2
   m_Value: -0.0000039125102
-  m_Size: 0.6099921
+  m_Size: 0.61
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -20093,3 +20144,4 @@ SceneRoots:
   - {fileID: 1819247422}
   - {fileID: 1790365991}
   - {fileID: 114862299}
+  - {fileID: 602594186}
