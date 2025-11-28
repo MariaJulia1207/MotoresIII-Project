@@ -92,53 +92,7 @@ MonoBehaviour:
     m_DisplayName: Protagonista
   m_Markers:
     m_Objects: []
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: Cutscene_DirectorTimeline
-  m_EditorClassIdentifier: 
-  m_Version: 0
-  m_Tracks:
-  - {fileID: 7873127660722046806}
-  - {fileID: -7342818641293424062}
-  m_FixedDuration: 0
-  m_EditorSettings:
-    m_Framerate: 60
-    m_ScenePreview: 1
-  m_DurationMode: 0
-  m_MarkerTrack: {fileID: 0}
---- !u!114 &3568108012106422327
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset
-  m_EditorClassIdentifier: 
-  sourceGameObject:
-    exposedName: 4c6947a0ebc63d4499b5f1b9333e8684
-    defaultValue: {fileID: 0}
-  prefabGameObject: {fileID: 0}
-  updateParticle: 1
-  particleRandomSeed: 9258
-  updateDirector: 1
-  updateITimeControl: 1
-  searchHierarchy: 0
-  active: 1
-  postPlayback: 2
-  directorOnClipEnd: 0
---- !u!114 &7873127660722046806
+--- !u!114 &-6088242771881821487
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,3 +133,49 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: Cutscene_DirectorTimeline
+  m_EditorClassIdentifier: 
+  m_Version: 0
+  m_Tracks:
+  - {fileID: -7342818641293424062}
+  - {fileID: -6088242771881821487}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &3568108012106422327
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
+  m_Name: ControlPlayableAsset
+  m_EditorClassIdentifier: 
+  sourceGameObject:
+    exposedName: 4c6947a0ebc63d4499b5f1b9333e8684
+    defaultValue: {fileID: 0}
+  prefabGameObject: {fileID: 0}
+  updateParticle: 1
+  particleRandomSeed: 9258
+  updateDirector: 1
+  updateITimeControl: 1
+  searchHierarchy: 0
+  active: 1
+  postPlayback: 2
+  directorOnClipEnd: 0
