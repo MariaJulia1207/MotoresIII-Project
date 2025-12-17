@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4483b95e7e5e87345a11322d5bc82cdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 5
+  velocidade: 10
 --- !u!50 &482932249740284673
 Rigidbody2D:
   serializedVersion: 5
@@ -164,7 +164,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.9605039
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
